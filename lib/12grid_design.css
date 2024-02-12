@@ -29,7 +29,7 @@ div [data-maincontainer="true"] {
 	padding				: 10px !important;
 }
 
-.rowDesign {
+.rowDesign, .cssPositionContainerDesign {
  	background-color	: #D3D3D3;
 	border				: 2px solid inherit;
     margin				: 30px 10px !important;
@@ -98,7 +98,7 @@ div [data-maincontainer="true"] {
 	 width: calc(100% * 1 / 12 - 6px);
 }
 
-.customDivDesign::before, .rowDesign::before, .columnDesign::before, .customDivDesignOdd::before, .customDivDesignEven::before, .centercontainerDesign::before, .flexDesign::before, .inlinegroupDesign::before, .simplecollapsibleDesign::before {
+.customDivDesign::before, .rowDesign::before, .columnDesign::before, .customDivDesignOdd::before, .customDivDesignEven::before, .centercontainerDesign::before, .flexDesign::before, .inlinegroupDesign::before, .simplecollapsibleDesign::before, .cssPositionContainerDesign::before {
   content				  : attr(svy-title);
   color					  : #333333;
   border-bottom           : none;
@@ -119,7 +119,7 @@ div [data-maincontainer="true"] {
   border                  : 1px solid #E8E8E8;
 }
 
-.rowDesign::before {
+.rowDesign::before, .cssPositionContainerDesign::before {
   background-color		  : #D3D3D3;
   border                  : 1px solid #D3D3D3;
 }
