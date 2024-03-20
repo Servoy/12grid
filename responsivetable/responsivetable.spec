@@ -4,7 +4,7 @@
 	"displayName": "Responsive Grid Container",
 	"version": 1,
 	"definition": "responsivetable/responsivetable.json",
-	"icon": "12grid/container/container.gif",
+	"icon": "12grid/container/container.png",
 	"categoryName":"Templates",
 	"contains": ["bootstrapcomponents.*"],
 	"topContainer": true,

@@ -3,7 +3,7 @@
 	"displayName": "Flex Container",
 	"version": 1,
 	"definition": "flexcontainer/flexcontainer.json",
-	"icon": "12grid/flexcontainer/flexcontainer.gif",
+	"icon": "12grid/flexcontainer/flexcontainer.png",
     "contains": [
         "flexitem"
     ],
