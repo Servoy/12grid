@@ -45,7 +45,14 @@ export class CollapseDirective implements AfterViewInit {
             }
             this.showing = !this.showing;
         });
-        this.renderer.addClass(content, 'show');
+        if (content) {
+            this.showing = content.classList.contains('show');
+            if (!this.showing && content.classList.contains('in')){
+                // also check for old ng1 class, in, to make sure simple collapse default value is correct
+                this.showing = true;
+                this.renderer.addClass(content, 'show');
+            }
+        }
     }
 
 }
