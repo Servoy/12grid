@@ -1,6 +1,6 @@
 {
   "name": "@servoy/12grid",
-  "version": "2024.3.2",
+  "version": "2024.3.3",
   "peerDependencies": {
     "@angular/common": "^17",
     "@angular/core": "^17",
