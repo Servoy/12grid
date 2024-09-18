@@ -21,6 +21,11 @@ div [data-maincontainer="true"] {
 	min-height: 20px;
 }
 
+.svy-layoutcontainer{
+    min-height: 20px !important;
+}
+
+
 .customDivDesign, .customDivDesignOdd, .customDivDesignEven, .centercontainerDesign, .flexDesign, .inlinegroupDesign, .simplecollapsibleDesign {
 	background-color	: #E8E8E8;
 	border				: 2px solid inherit;
@@ -33,7 +38,7 @@ div [data-maincontainer="true"] {
  	background-color	: #D3D3D3;
 	border				: 2px solid inherit;
     margin				: 30px 10px !important;
-	min-height			: 40px;
+	min-height			: 40px !important;
     padding				: 10px !important;
 }
 
@@ -53,7 +58,7 @@ div [data-maincontainer="true"] {
 	background-color		: #F0F0F0;
 	border					: 2px solid inherit;
 	margin					: 30px 3px 3px 3px !important;
-	min-height				: 40px;
+	min-height				: 40px !important;
 	min-width				: 75px;
     padding					: 10px !important;
     display					: inline-block;
