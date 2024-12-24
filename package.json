@@ -1,6 +1,6 @@
 {
   "name": "12grid",
-  "version": "2024.3.3",
+  "version": "2024.3.4",
   "scripts": {
     "ng": "ng",
     "build": "ng build --configuration production",
