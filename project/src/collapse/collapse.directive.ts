@@ -1,6 +1,9 @@
 import { AfterViewInit, Directive, ElementRef, Renderer2 } from '@angular/core';
 
-@Directive({ selector: '[gridCollapse]' })
+@Directive({
+    selector: '[gridCollapse]',
+    standalone: false
+})
 export class CollapseDirective implements AfterViewInit {
     private showing = true;
     private height = 0;
