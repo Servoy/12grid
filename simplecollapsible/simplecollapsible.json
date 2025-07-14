@@ -13,9 +13,9 @@
 					"class": "simple-collapsible-icon pull-right"
 					}
 				},{
-				"layoutName": "clearfix",
+				"layoutName": "div",
 				"model": {
-					"class": "clearfix"
+					"class": "customDiv"
 				}
 			}]
 		}
