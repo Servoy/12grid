@@ -7,6 +7,7 @@
 	"categoryName":"Templates",
 	"layout": "css",
 	"designStyleClass" : "cssPositionContainerDesign",
+	"contains": ["component"],
 	"model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }, "default" : "csspositioncontainer" },
 		"size" : {"type" :"dimension",  "default" : {"width":200, "height":200}}
