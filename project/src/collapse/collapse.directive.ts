@@ -16,10 +16,10 @@ export class CollapseDirective implements AfterViewInit {
             toggle = element.querySelector('[data-toggle="collapse"]');
         let content = element.querySelector('.simple-collapsible-content');
         if (!content)
-        	content = element.querySelector(toggle.getAttribute("data-target"));
+        	content = element.querySelector(toggle!.getAttribute("data-target")!);
         this.renderer.listen(toggle, 'click', () => {
             if (this.showing) {
-                this.height = content.clientHeight;
+                this.height = content!.clientHeight;
                 this.renderer.addClass(toggle, 'collapsed');
                 this.renderer.removeClass(content, 'collapse');
                 this.renderer.removeClass(content, 'show');
