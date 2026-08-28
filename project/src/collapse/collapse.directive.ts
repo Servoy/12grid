@@ -1,14 +1,14 @@
-import { AfterViewInit, Directive, ElementRef, Renderer2 } from '@angular/core';
+import { AfterViewInit, Directive, ElementRef, inject, Renderer2 } from '@angular/core';
 
 @Directive({
     selector: '[gridCollapse]',
-    standalone: false
+    standalone: true
 })
 export class CollapseDirective implements AfterViewInit {
     private showing = true;
     private height = 0;
-    constructor(private elemRef: ElementRef, private renderer: Renderer2) {
-    }
+    private readonly elemRef = inject(ElementRef);
+    private readonly renderer = inject(Renderer2);
     ngAfterViewInit(): void {
         const element = this.elemRef.nativeElement as HTMLDivElement;
         let toggle = element.querySelector('.simple-collapsible-toggle');
